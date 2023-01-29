@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.f9f9075ce868bc24d500c1da8eb809ba.js"
+  "/precache-manifest.76b0868e6e27cdddfab9ff7bacd54622.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "portfolio"});
+workbox.core.setCacheNameDetails({prefix: "portfolio-website"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
