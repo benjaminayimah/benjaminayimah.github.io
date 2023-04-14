@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.50c8a14c980c67b12f83fb241a40f103.js"
+  "/precache-manifest.00052b333f277b4e643e0178f1f58ae4.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "portfolio-website"});
